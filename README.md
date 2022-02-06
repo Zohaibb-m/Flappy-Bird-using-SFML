@@ -1,3 +1,3 @@
 # Flappy-Bird-using-SFML
 
-[My image](./PNG/ss3.png)
+![My image](./PNG/ss3.png)
