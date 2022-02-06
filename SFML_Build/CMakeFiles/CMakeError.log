@@ -1,0 +1,19 @@
+Determining if the include file dinput.h exists failed with the following output:
+Change Dir: E:/SFML/SFML_Build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3a229/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_3a229.dir\build.make CMakeFiles/cmTC_3a229.dir/build
+mingw32-make.exe[1]: Entering directory 'E:/SFML/SFML_Build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a229.dir/CheckIncludeFile.c.obj
+C:\MinGW\bin\gcc.exe    -o CMakeFiles\cmTC_3a229.dir\CheckIncludeFile.c.obj -c E:\SFML\SFML_Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+E:\SFML\SFML_Build\CMakeFiles\CMakeTmp\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+ #include <dinput.h>
+                    ^
+compilation terminated.
+CMakeFiles\cmTC_3a229.dir\build.make:76: recipe for target 'CMakeFiles/cmTC_3a229.dir/CheckIncludeFile.c.obj' failed
+mingw32-make.exe[1]: *** [CMakeFiles/cmTC_3a229.dir/CheckIncludeFile.c.obj] Error 1
+mingw32-make.exe[1]: Leaving directory 'E:/SFML/SFML_Build/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3a229/fast' failed
+mingw32-make.exe: *** [cmTC_3a229/fast] Error 2
+
+
+
